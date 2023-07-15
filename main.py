@@ -1,8 +1,12 @@
-import sys
-from typing import List
+""" Hola Mundo """
 
 
 def hello_world():
+    """Hola Mundo
+
+    Returns:
+        Str: Regresa "Hola Mundo"
+    """
     return "Hola Mundo"
 
 
