@@ -23,3 +23,11 @@ repos:
   rev: v2.17.4
   hooks:
     - id: pylint
+
+- repo: local
+  hooks:
+  - id: pytest
+    language: system
+    name: pytest
+    entry: pytest
+    types: [python]
